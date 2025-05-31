@@ -1,6 +1,4 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
 import Collection from "./pages/Collection";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -15,6 +13,7 @@ import SearchBar from "./components/SearchBar";
 import { ToastContainer, toast } from "react-toastify";
 import Profile from "./pages/Profile";
 import ScrollToTop from "./components/ScrollToTop";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
